@@ -2,8 +2,14 @@ import 'package:flutter/material.dart';
 
 AppBarTheme appBarTheme = AppBarTheme(color: Colors.transparent, elevation: 0);
 class ColorConstants {
-  static Color primaryColor = hexToColor("#1572A1");
+  static Color primaryColor = hexToColor("#FF4C3B");
   static Color secondaryColor = hexToColor("#B983FF");
+
+  static Color titleColor = hexToColor("#222222");
+  static Color contentColor = hexToColor("#777777");
+  static Color borderColor = hexToColor("#DDDDDD");
+
+  static Color lightGrey = hexToColor("#EDEFF4");
 
   static Color secondaryLightColor = hexToColor("#E4E9F2");
   static Color secondaryDarkColor = hexToColor("#404040");
