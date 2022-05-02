@@ -7,14 +7,14 @@ class Assets {
   static String background = 'assets/images/background.jpeg';
   static String iconBagas = 'assets/images/bagas.jpg';
 
-  static String iconHeart = 'assets/icons/ic_heart.jpg';
-  static String iconBar = 'assets/icons/ic_bar.jpg';
-  static String iconCart = 'assets/icons/ic_cart.jpg';
-  static String iconCategory = 'assets/icons/ic_category.jpg';
-  static String iconProfile = 'assets/icons/ic_profile.jpg';
-  static String iconSearch = 'assets/icons/ic_search.jpg';
+  static String iconHeart = 'assets/icons/ic_heart.png';
+  static String iconBar = 'assets/icons/ic_bar.png';
+  static String iconCart = 'assets/icons/ic_cart.png';
+  static String iconCategory = 'assets/icons/ic_category.png';
+  static String iconProfile = 'assets/icons/ic_profile.png';
+  static String iconSearch = 'assets/icons/ic_search.png';
 
-  static String iconMultikart = 'assets/icons/ic_multikart.jpg';
+  static String iconMultikart = 'assets/icons/ic_multikart.png';
 }
 
 class SocialMedia {

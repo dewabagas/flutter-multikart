@@ -37,6 +37,8 @@ dependencies:
   get: ^4.6.1
   get_storage: ^2.0.3
   flutter_screenutil: ^5.4.0+1
+  intl: ^0.17.0
+  google_fonts: ^2.3.2
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +69,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/introduction/
     - assets/svgs/
     - assets/icons/
 

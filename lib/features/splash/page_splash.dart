@@ -46,7 +46,7 @@ class PageSplashState extends State<PageSplash>
   @override
   Widget build(BuildContext context) {
     Timer(const Duration(seconds: 3), () async {
-      Get.offAllNamed(Routes.PAGE_HOME);
+      Get.offAllNamed(Routes.PAGE_INTRODUCTION);
     });
     return Container(
       color: Colors.white,
@@ -56,11 +56,11 @@ class PageSplashState extends State<PageSplash>
           ScaleTransition(
             scale: _animation,
             alignment: Alignment.center,
-            child: Image.asset(Assets.iconClock, width: 318.w, height: 326.h),
+            child: Image.asset(Assets.iconMultikart, width: 318.w, height: 326.h),
           ),
           SizedBox(height: 10.h),
           Text(
-            'Bibit Alarm',
+            'Multikart',
             style: TextStyles.titlePoppins,
           ),
         ],

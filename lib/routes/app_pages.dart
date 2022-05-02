@@ -1,5 +1,6 @@
 
 
+import 'package:flutter_multikart/features/introduction/introduction.dart';
 import 'package:flutter_multikart/features/splash/splash.dart';
 import 'package:get/route_manager.dart';
 
@@ -12,6 +13,10 @@ class AppPages {
     GetPage(
       name: Routes.SPLASH,
       page: () => PageSplash()
+    ),
+    GetPage(
+      name: Routes.PAGE_INTRODUCTION,
+      page: () => PageIntroduction()
     ),
   ];
 }
